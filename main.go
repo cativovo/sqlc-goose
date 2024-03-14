@@ -4,7 +4,8 @@ import (
 	"context"
 	"fmt"
 	"os"
-	"sqlc-goose/db"
+
+	"github.com/cativovo/sqlc-goose/db"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgtype"
